@@ -12,7 +12,7 @@ const App = () => {
   
   return (
     <main className="App">
-        <input type="text" placeholder=""/>
+        <input type="text" placeholder="input"/>
     </main>
   )
 }
