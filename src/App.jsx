@@ -9,7 +9,6 @@ const App = () => {
   useEffect(() => {
     console.log(`New sum. Value: ${sum()}`)
   }, [sum])
-  
   return (
     <main className="App">
         <input type="text" placeholder="input"
