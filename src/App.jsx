@@ -11,7 +11,7 @@ const App = () => {
   }, [sum])
   return (
     <main className="App">
-        <input type="text" placeholder="input"
+        <input type="text" placeholder="input" 
         value={userInput} onChange={(e) => setUserInput(e.target.value)} 
         />
         <h1>outPut: {userInput || ".."}</h1>
