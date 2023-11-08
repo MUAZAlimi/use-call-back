@@ -6,6 +6,8 @@ const App = () => {
   const [num2] = useState(5);
 
   const sum = () => num1 + num2;
+
+  const buildArray = () => {}
   useEffect(() => {
     console.log(`New sum. Value: ${sum()}`);
   }, [sum]);
