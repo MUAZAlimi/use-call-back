@@ -2,12 +2,15 @@ import { useEffect, useState, useCallback  } from "react";
 
 const App = () => {
   const [userInput, setUserInput] = useState("");
+  const [result, setResult] = useState(0)
   const [num1] = useState(5);
   const [num2] = useState(5);
 
   const sum = () => num1 + num2;
 
-  const buildArray = () => {}
+  const buildArray = () => {
+    
+  }
   useEffect(() => {
     console.log(`New sum. Value: ${sum()}`);
   }, [sum]);
